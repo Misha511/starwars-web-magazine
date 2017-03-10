@@ -1,0 +1,94 @@
+body {
+  font-style: arial;
+  margin: 0;
+  background: #eee;
+}
+
+#wrapper {
+  width: 980px;
+  margin: 0 auto;
+  background: #fff;
+}
+
+
+
+                   /*Настройка панели навигации*/
+
+#main-navigation {
+  background-color: rgba(24, 24, 24, 0.6);
+  padding: 1%;
+  position: fixed;
+     z-index: 1;
+     top: 0;
+     left: 19%;
+     width: 60%;
+
+
+}
+
+#main-navigation ul {
+  text-align: center;
+  list-style-type: none;
+  padding: 1%;
+  margin:0 auto;
+}
+
+#main-navigation li {
+  display: inline-block;
+   margin: 10px;
+}
+#main-navigation a {
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 14px;
+  padding: 5px;
+}
+#main-navigation a.current {
+    border: 4px solid #8f746c;
+    border-radius: 4px;
+}
+#main-navigation a.current:hover {
+  background: #8f746c;
+  border: 4px solid #eee;
+}
+
+
+#lead-banner img {
+  width:100%;
+}
+
+
+                      /* Настройка магазина*/
+#shop {
+  margin: 30px 0;
+  text-align: center;
+}
+#shop h2.product-name {
+  font-size: 16px;
+  margin-bottom: 0;
+}
+
+#shop span.price {
+   display: block;
+   font-size: 58px;
+}
+#shop a.add-to-bag {
+  display: block;
+  color: #8f746c;
+  text-transform: uppercase;
+  font-size: 12px;
+  text-decoration: none;
+  padding: 10px 0;
+  border: 2px solid #8f746c;
+  width: 210px;
+  margin: 20px auto;
+}
+#shop a.add-to-bag:hover {
+  color: #fff;
+  background: #8f746c;
+}
+
+#footer-banner {
+  width: 100%;
+}
